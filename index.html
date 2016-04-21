@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Webapplikationen Uebung 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css" >
+    </head>
+    <body>
+        <h1>BMI-Rechner</h1>
+        <fieldset id="fs_main">
+            <legend class="lg_border"> Angaben zur BMI-Berechnung</legend>
+            <form action="" method="get">
+               <div id="inputs">
+                   <div id="d_gewicht" ><label for="gewicht"> Gewicht: </label> <input id="gewicht" type="text" name="gewicht" size="4" placeholder="60" required> </div>
+                   <div id="d_groesse" ><label for="groesse"> Größe: </label> <input id="groesse" type="text" name="groesse" size="4" placeholder="175" required> </div>
+               </div>
+               <fieldset id="fs_gender">
+                    <legend class="lg_border">Geschlecht</legend>
+                    <div id="d_male"> <label for="maennlich"> Männlich </label><input type="radio" name="geschlecht" value="maennlich" id="maennlich"> </div>
+                    <div id="d_female"> <label for="weiblich" > Weiblich </label><input type="radio" name="geschlecht" value="weiblich" id="weiblich"> </div>
+                </fieldset>
+                <div id="buttons">
+                    <input type="reset">     
+                    <input type="submit">
+                </div>
+            </form>
+        </fieldset>
+        <p class="cl_darkslategray">Ihr Body Mass Index beträgt____.</p>
+        
+        <a href="http://www.frauenzimmer.de/cms/perfekter-bmi-bei-frauen-welcher-body-mass-index-gilt-als-attraktiv-2450153.html">BMI-Link</a>
+        <img src="http://autoimg.frauenzimmer.de/autoimg/1336908/300x600/perfekter-bmi-bei-frauen-welcher-body-mass-index-gilt-als-attraktiv.jpg" > 
+    </body>
+</html>
